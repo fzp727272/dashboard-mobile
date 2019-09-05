@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.swiper-slide {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+
+    .swiper-slide-item-1{
+        flex:1;
+        margin-top: 12px;
+    }
+}

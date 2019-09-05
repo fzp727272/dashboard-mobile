@@ -1,0 +1,17 @@
+.tabs {
+    height: 40px;
+    padding: 10px 50px;
+    display: flex;
+    background: #eee
+  }
+  .tabs span {
+    flex: 1;
+    font: 14px/38px "黑体";
+    text-align: center;
+    border: 1px solid #ddd;
+    margin: 0 5px;
+    border-radius: 8px;
+  }
+  .tabs span.active {
+    background: #ddd;
+  }
