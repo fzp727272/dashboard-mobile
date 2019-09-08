@@ -53,11 +53,9 @@
       <div class="prev btn nav-height disabled" id="prevBtn"><i class="fa fa-angle-left"></i></div>
       <div class="nav-list-container nav-height">
         <div class="nav-list-scroller nav-height">
-          <ul class="nav-height">
-            <li class="nav-list-item nav-height current">
-              <p><span>仓库1</span></p>
-            </li>
-            <li class="nav-list-item nav-height">
+          <ul id="nav-container" class="nav-height">
+        
+            <!-- <li class="nav-list-item nav-height">
               <p><br /><span>仓库2</span></p>
             </li>
             <li class="nav-list-item nav-height">
@@ -74,7 +72,7 @@
             </li>
             <li class="nav-list-item nav-height">
               <p><br /><span>仓库7</span></p>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
@@ -85,54 +83,9 @@
 
     <div class="content">
       <div class="step-list-scroller" poX="0">
-        <div class="step-container step-width">
-          <div class="step">
-            <div class="detail" id="google">
-                <h2>优通百雀羚仓库1</h2>
-              <div class="pic"><div id="chart1" style="width: 100%;height:300px"></div></div>
-              <div class="list-container">
-              <div class="list">
-                  <div class="key">出库量</div>
-                  <div class="value">
-                      891023,000箱
-                  </div>
-              </div>
-              <div class="list">
-                <div class="key">出库单数</div>
-                <div class="value">
-                    8023,000单
-                </div>
-            </div>
-            <div class="list">
-                <div class="key">出库箱数</div>
-                <div class="value">
-                    891023,000箱
-                </div>
-            </div>
-            <div class="list">
-                <div class="key">入库量</div>
-                <div class="value">
-                    891023,000箱
-                </div>
-            </div>
-            <div class="list">
-                <div class="key">入库箱数</div>
-                <div class="value">
-                    891023,000箱
-                </div>
-            </div>
-            <div class="list">
-                <div class="key">库存量</div>
-                <div class="value">
-                    891023,000箱
-                </div>
-            </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    
 
-        <div class="step-container step-width">
+        <!-- <div class="step-container step-width">
           <div class="step">
             <div class="detail" id="github">
               <h2>Where software is built</h2>
@@ -297,7 +250,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
 
@@ -318,7 +271,8 @@
     <script src="vendor/fastclick-min.js"></script>
     <script src="vendor/touch-0.2.14.min.js"></script>
     <script src="vendor/iscroll.js"></script>
-    <script src="vendor/index.js"></script>
+    <script src="vendor/jquery.loadTemplate.min.js"></script>
+    <!-- <script src="vendor/index.js"></script> -->
 
     <!-- Don't delete this. It's needed for development workflow. -->
     <!-- inject:js -->

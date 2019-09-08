@@ -3462,6 +3462,13 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.10.0"
 
+jsrender@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.npm.taobao.org/jsrender/download/jsrender-1.0.4.tgz#99de5bf13341f46af677248361a8e126c164ceb7"
+  integrity sha1-md5b8TNB9Gr2dySDYajhJsFkzrc=
+  dependencies:
+    through2 "^2.0.0"
+
 kind-of@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npm.taobao.org/kind-of/download/kind-of-1.1.0.tgz#140a3d2d41a36d2efcfa9377b62c24f8495a5c44"

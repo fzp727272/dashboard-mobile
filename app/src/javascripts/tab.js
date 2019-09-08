@@ -1,13 +1,9 @@
-/*
-	Swipeable Tab
-*/
+module.exports={
+    init:function(itemCount,maxShowItem){
+        	FastClick.attach(document.body);
 
-
-$(function() {
-	FastClick.attach(document.body);
-
-	var itemCount = 7, //切换模块数(即总nav数)
-		maxShowItem = 4, //每屏显示的nav数
+	var itemCount = itemCount, //切换模块数(即总nav数)
+		maxShowItem = maxShowItem, //每屏显示的nav数
 		scrollPage = itemCount - maxShowItem, //nav可以切换移动的最大次数
 		currentScrollPage = 0,
 		currentStepIndex = 0, //当前显示的step
@@ -250,5 +246,5 @@ $(function() {
 		try { f = b.toString().split(".")[1].length; } catch (g) {}
 		return c = Number(a.toString().replace(".", "")), d = Number(b.toString().replace(".", "")), mathMul(c / d, Math.pow(10, f - e));
 	}
-
-});
+    }
+}
