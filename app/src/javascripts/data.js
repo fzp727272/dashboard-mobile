@@ -10,144 +10,115 @@ for (var i = 0; i < 6; i++) {
   data3.push((Math.random() * 1000).toFixed(2));
 }
 
+module.exports = {
+  data: [
+    {
+      storeName: '仓库1',
+      storeDisplayName: '优通百雀羚仓库1',
+      warehouseData: {
+        xAxisData,
+        data1,
+        data2,
+        data3,
+      },
+      sheetData: [
+        { key: '出库量', value: '523,309', unit: '箱' },
+        { key: '出库单数', value: '523,309', unit: '箱' },
+        { key: '出库箱数', value: '523,309', unit: '箱' },
+        { key: '出库量', value: '523,309', unit: '箱' },
+        { key: '出库量', value: '523,309', unit: '箱' },
+        { key: '出库量', value: '523,309', unit: '箱' },
+        { key: '出库量', value: '523,309', unit: '箱' },
+      ],
+        staticData: [
+          { percentage: 67, title: '周转率1', value: '1231890' },
+          { percentage: 17, title: '周转率2', value: '1231890' },
+          { percentage: 58 , title: '周转率3', value: '1231890' },
+          { percentage: 90, title: '周转率4', value: '1231890' },
+        ],
+        ration:"88%",
 
-module.exports={
+    },
 
-    data:[
-        { storeName:'仓库1',
-        storeDisplayName:'优通百雀羚仓库1',
-            staticData:{
-                xAxisData,
-                data1,
-                data2,
-                data3
-
+    {
+        storeName: '仓库2',
+        storeDisplayName: '优通百雀羚仓库2',
+        warehouseData: {
+          xAxisData,
+          data1,
+          data2,
+          data3,
         },
-        sheetData:[
-           { key:'出库量',value:'523,309',unit:'箱'},
-           { key:'出库单数',value:'523,309',unit:'箱'},
-           { key:'出库箱数',value:'523,309',unit:'箱'},
-           { key:'出库量',value:'523,309',unit:'箱'},
-           { key:'出库量',value:'523,309',unit:'箱'},
-           { key:'出库量',value:'523,309',unit:'箱'},
-           { key:'出库量',value:'523,309',unit:'箱'},
+        sheetData: [
+          { key: '出库量', value: '523,309', unit: '箱' },
+          { key: '出库单数', value: '523,309', unit: '箱' },
+          { key: '出库箱数', value: '523,309', unit: '箱' },
+          { key: '出库量', value: '523,309', unit: '箱' },
+          { key: '出库量', value: '523,309', unit: '箱' },
+          { key: '出库量', value: '523,309', unit: '箱' },
+          { key: '出库量', value: '523,309', unit: '箱' },
         ],
-        stateData:{
-            staticDate:[
-
-            ],
-
-        }
-
-
-    },
-    { storeName:'仓库2',
-    storeDisplayName:'优通百雀羚仓库2',
-        staticData:{
-            xAxisData,
-            data1,
-            data2,
-            data3
-
-    },
-    sheetData:[
-       { key:'出库量',value:'523,309'},
-       { key:'出库单数',value:'523,309'},
-       { key:'出库箱数',value:'523,309'},
-       { key:'出库量',value:'523,309'},
-       { key:'出库量',value:'523,309'},
-       { key:'出库量',value:'523,309'},
-       { key:'出库量',value:'523,309'},
-    ],
-    stateData:{
-        staticDate:[
-
+          staticData: [
+            { percentage: 67, title: '周转率1', value: '1231890' },
+            { percentage: 17, title: '周转率2', value: '1231890' },
+            { percentage: 58 , title: '周转率3', value: '1231890' },
+            { percentage: 90, title: '周转率4', value: '1231890' },
+          ],
+          ration:"88%",
+  
+      }, {
+        storeName: '仓库3',
+        storeDisplayName: '优通百雀羚仓库3',
+        warehouseData: {
+          xAxisData,
+          data1,
+          data2,
+          data3,
+        },
+        sheetData: [
+          { key: '出库量', value: '523,309', unit: '箱' },
+          { key: '出库单数', value: '523,309', unit: '箱' },
+          { key: '出库箱数', value: '523,309', unit: '箱' },
+          { key: '出库量', value: '523,309', unit: '箱' },
+          { key: '出库量', value: '523,309', unit: '箱' },
+          { key: '出库量', value: '523,309', unit: '箱' },
+          { key: '出库量', value: '523,309', unit: '箱' },
         ],
-
-    }
-
-
-},
-{ storeName:'仓库3',
-storeDisplayName:'优通百雀羚仓库3',
-    staticData:{
-        xAxisData,
-        data1,
-        data2,
-        data3
-
-},
-sheetData:[
-   { key:'出库量',value:'523,309'},
-   { key:'出库单数',value:'523,309'},
-   { key:'出库箱数',value:'523,309'},
-   { key:'出库量',value:'523,309'},
-   { key:'出库量',value:'523,309'},
-   { key:'出库量',value:'523,309'},
-   { key:'出库量',value:'523,309'},
-],
-stateData:{
-    staticDate:[
-
-    ],
-
-}
-
-
-},
-{ storeName:'仓库4',
-storeDisplayName:'优通百雀羚仓库4',
-    staticData:{
-        xAxisData,
-        data1,
-        data2,
-        data3
-
-},
-sheetData:[
-   { key:'出库量',value:'523,309'},
-   { key:'出库单数',value:'523,309'},
-   { key:'出库箱数',value:'523,309'},
-   { key:'出库量',value:'523,309'},
-   { key:'出库量',value:'523,309'},
-   { key:'出库量',value:'523,309'},
-   { key:'出库量',value:'523,309'},
-],
-stateData:{
-    staticDate:[
-
-    ],
-
-}
-
-
-},
-{ storeName:'仓库5',
-storeDisplayName:'优通百雀羚仓库5',
-    staticData:{
-        xAxisData,
-        data1,
-        data2,
-        data3
-
-},
-sheetData:[
-   { key:'出库量',value:'523,309'},
-   { key:'出库单数',value:'523,309'},
-   { key:'出库箱数',value:'523,309'},
-   { key:'出库量',value:'523,309'},
-   { key:'出库量',value:'523,309'},
-   { key:'出库量',value:'523,309'},
-   { key:'出库量',value:'523,309'},
-],
-stateData:{
-    staticDate:[
-
-    ],
-
-}
-
-
-},
-    ]
-}
+          staticData: [
+            { percentage: 67, title: '周转率1', value: '1231890' },
+            { percentage: 17, title: '周转率2', value: '1231890' },
+            { percentage: 58 , title: '周转率3', value: '1231890' },
+            { percentage: 90, title: '周转率4', value: '1231890' },
+          ],
+          ration:"88%",
+  
+      },
+      {
+        storeName: '仓库4',
+        storeDisplayName: '优通百雀羚仓库4',
+        warehouseData: {
+          xAxisData,
+          data1,
+          data2,
+          data3,
+        },
+        sheetData: [
+          { key: '出库量', value: '523,309', unit: '箱' },
+          { key: '出库单数', value: '523,309', unit: '箱' },
+          { key: '出库箱数', value: '523,309', unit: '箱' },
+          { key: '出库量', value: '523,309', unit: '箱' },
+          { key: '出库量', value: '523,309', unit: '箱' },
+          { key: '出库量', value: '523,309', unit: '箱' },
+          { key: '出库量', value: '523,309', unit: '箱' },
+        ],
+          staticData: [
+            { percentage: 67, title: '周转率1', value: '1231890' },
+            { percentage: 17, title: '周转率2', value: '1231890' },
+            { percentage: 58 , title: '周转率3', value: '1231890' },
+            { percentage: 90, title: '周转率4', value: '1231890' },
+          ],
+          ration:"88%",
+  
+      },
+  ],
+};

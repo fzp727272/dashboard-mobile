@@ -1,0 +1,52 @@
+#warehouse-state{
+    
+    display: flex;
+    flex: 1;
+    // padding: $paddingSize $paddingSize $paddingSize $paddingSize ;
+    flex-direction: column;
+    .warehouse-state-row{
+        padding-bottom: $paddingSize;
+        .warehouse-state-list{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+        height: 150px;
+        width: 50%;
+        float: left;
+
+    
+       
+        .dashboard-progress{
+        height: 100px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            position: relative;
+            .progress-ration{
+                position: absolute;
+                font-size: $fontSizeLarge;
+                color: #000;
+
+            }
+
+        }
+        .warehouse-state-text{
+            margin-top: $fontSizeNormal;
+            .warehouse-state-text-title{
+                font-size: $fontSizeMiddle;
+                // color: $textLigh;
+                color: #000;
+                text-align: center;
+            }
+            .warehouse-state-text-value{
+                margin-top: $paddingSize;
+                font-size: $fontSizeMiddle;
+                color: #000;
+                text-align: center;
+            }
+        }
+
+        }
+    }
+}

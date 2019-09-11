@@ -4940,11 +4940,11 @@ body {
 }
 
 .nav-list-container {
+  background: #0A1B3A;
   position: relative;
   float: left;
   width: 80%;
   height: 100px;
-  background-color: #fff;
   overflow: hidden;
   -ms-touch-action: none;
   z-index: 1;
@@ -5081,9 +5081,15 @@ body {
 }
 
 .list-container {
+  margin-bottom: 12px;
   background: #FFF;
   padding: 6px 12px;
   border-radius: 6px;
+}
+
+.list-container h3 {
+  margin-top: 10px;
+  margin-bottom: 6px;
 }
 
 .list-container .list {
@@ -5097,6 +5103,10 @@ body {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.list-container .list:last-child {
+  border-bottom: none;
+}
+
 .list-container .list .key {
   font-size: 12px;
   color: rgba(0, 0, 0, 0.4);
@@ -5105,4 +5115,160 @@ body {
 .list-container .list .value {
   font-size: 14px;
   color: black;
+}
+
+.ration-container {
+  height: 50px;
+  margin-top: -10px;
+}
+
+#warehouse-statistics .statistics-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex: 1;
+      flex: 1;
+  padding: 0 12px 0  12px;
+}
+
+#warehouse-statistics .statistics-container .statistics-list {
+  -ms-flex: 1;
+      flex: 1;
+  height: 100px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+#warehouse-statistics .statistics-container .statistics-list .unit {
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+#warehouse-statistics .statistics-container .statistics-list .tag {
+  width: 36px;
+  height: 36px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  border-radius: 50%;
+  font-size: 12px /2;
+  background: rgba(47, 89, 255, 0.3);
+  color: #2f59ff;
+  margin-right: 12px;
+}
+
+#warehouse-statistics .statistics-container .statistics-list .tag .fa-reply {
+  transform: scaleX(-1);
+}
+
+#warehouse-statistics .statistics-container .statistics-list .tag .fa-reply-all {
+  transform: scaleX(-1);
+}
+
+#warehouse-statistics .statistics-container .statistics-list .statistics-text-container {
+  -ms-flex-direction: row;
+      flex-direction: row;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex: 1;
+      flex: 1;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+#warehouse-statistics .statistics-container .statistics-list .statistics-text-container .statistics-value {
+  font-size: 20px;
+  color: #fff;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+#warehouse-statistics .statistics-container .statistics-list .statistics-text-container .statistics-label {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 16px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+#warehouse-statistics .statistics-container .statistics-list-warning .tag {
+  background: rgba(255, 0, 109, 0.3);
+  color: #ff006d;
+}
+
+#warehouse-state {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex: 1;
+      flex: 1;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+#warehouse-state .warehouse-state-row {
+  padding-bottom: 0.75em;
+}
+
+#warehouse-state .warehouse-state-row .warehouse-state-list {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  height: 150px;
+  width: 50%;
+  float: left;
+}
+
+#warehouse-state .warehouse-state-row .warehouse-state-list .dashboard-progress {
+  height: 100px;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+#warehouse-state .warehouse-state-row .warehouse-state-list .dashboard-progress .progress-ration {
+  position: absolute;
+  font-size: 1.5em;
+  color: #000;
+}
+
+#warehouse-state .warehouse-state-row .warehouse-state-list .warehouse-state-text {
+  margin-top: 0.75em;
+}
+
+#warehouse-state .warehouse-state-row .warehouse-state-list .warehouse-state-text .warehouse-state-text-title {
+  font-size: 1.25em;
+  color: #000;
+  text-align: center;
+}
+
+#warehouse-state .warehouse-state-row .warehouse-state-list .warehouse-state-text .warehouse-state-text-value {
+  margin-top: 0.75em;
+  font-size: 1.25em;
+  color: #000;
+  text-align: center;
 }

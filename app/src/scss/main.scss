@@ -9,6 +9,8 @@
 @import "base/reset";
 @import "base/base";
 
+@import "variable";
+
 // components
 @import "components/loading-overlay";
 // @import "components/btn-music";
@@ -18,6 +20,8 @@
 @import "components/loader";
 // @import "components/swipe";
 @import "components/swipe-container";
+@import "components/warehouse-static";
+@import "components/warehouse-state";
 // // sections
 // @import "slides/slide-1";
 // @import "slides/slide-2";
