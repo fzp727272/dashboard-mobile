@@ -42,7 +42,7 @@ module.exports = {
             </div>\
             </div>\
   \
-            <div class="list-container">\
+            <div class="list-container" style="margin-bottom:30px">\
             <h3>仓库状态:{{:ration}}</h3>\
             <div class="dashboard-panel" id="warehouse-ration" style="flex: 1;">\
             <div class="ration-container">\
