@@ -5222,7 +5222,7 @@ body {
 }
 
 #warehouse-state .warehouse-state-row {
-  padding-bottom: 0.75em;
+  padding-bottom: 12px;
 }
 
 #warehouse-state .warehouse-state-row .warehouse-state-list {
@@ -5252,23 +5252,23 @@ body {
 
 #warehouse-state .warehouse-state-row .warehouse-state-list .dashboard-progress .progress-ration {
   position: absolute;
-  font-size: 1.5em;
+  font-size: 24px;
   color: #000;
 }
 
 #warehouse-state .warehouse-state-row .warehouse-state-list .warehouse-state-text {
-  margin-top: 0.75em;
+  margin-top: 12px;
 }
 
 #warehouse-state .warehouse-state-row .warehouse-state-list .warehouse-state-text .warehouse-state-text-title {
-  font-size: 1.25em;
+  font-size: 18px;
   color: #000;
   text-align: center;
 }
 
 #warehouse-state .warehouse-state-row .warehouse-state-list .warehouse-state-text .warehouse-state-text-value {
-  margin-top: 0.75em;
-  font-size: 1.25em;
+  margin-top: 12px;
+  font-size: 20px;
   color: #000;
   text-align: center;
 }
